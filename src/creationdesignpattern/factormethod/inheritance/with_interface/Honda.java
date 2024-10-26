@@ -1,4 +1,4 @@
-package factormethodpattern.inheritance_with_interface;
+package creationdesignpattern.factormethod.inheritance.with_interface;
 
 public class Honda implements Vehicle {
     @Override

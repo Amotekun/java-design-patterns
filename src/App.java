@@ -1,10 +1,22 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        factormethodpattern.inheritance_with_interface.InheritanceWithInterfaceApp.run();
+        creationdesignpattern.factormethod.inheritance.with_interface.InheritanceWithInterfaceApp.run();
         printSeparator();
 
-        factormethodpattern.inheritance_without_interface.InheritanceWithoutInterfaceApp.run();
+        creationdesignpattern.factormethod.inheritance.without_interface.InheritanceWithoutInterfaceApp.run();
+        printSeparator();
+
+        creationdesignpattern.factormethod.static_method.StaticMethodsApp.run();
+        printSeparator();
+
+        creationdesignpattern.factormethod.with_enums.WithEnumsApp.run();
+        printSeparator();
+
+        creationdesignpattern.factormethod.dependency_injection.DependencyInjectionApp.run();
+        printSeparator();
+
+        creationdesignpattern.abstractmethod.guisystem.GuiSystemApp.run();
         printSeparator();
 
         System.out.println("All patterns executed successfully!");

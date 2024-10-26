@@ -1,4 +1,4 @@
-package factormethodpattern.inheritance_without_interface;
+package creationdesignpattern.factormethod.inheritance.without_interface;
 
 public class Dog extends Animal {
     @Override
