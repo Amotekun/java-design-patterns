@@ -1,1 +1,5 @@
-/bin/
+# Ignore all .class files in src
+src/**/*.class
+
+# Ignore bin folder
+bin/

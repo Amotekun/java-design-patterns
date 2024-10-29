@@ -16,7 +16,16 @@ public class App {
         creationdesignpattern.factormethod.dependency_injection.DependencyInjectionApp.run();
         printSeparator();
 
-        creationdesignpattern.abstractmethod.guisystem.GuiSystemApp.run();
+        creationdesignpattern.abstractmethod.guisystem.AbstractionMethodApp.run();
+        printSeparator();
+
+        creationdesignpattern.builder.BuilderApp.run();
+        printSeparator();
+
+        creationdesignpattern.prototype.PrototypeApp.run();
+        printSeparator();
+
+        creationdesignpattern.singleton.SingletonApp.run();
         printSeparator();
 
         System.out.println("All patterns executed successfully!");

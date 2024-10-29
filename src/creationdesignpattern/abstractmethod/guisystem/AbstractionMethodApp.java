@@ -1,10 +1,10 @@
 package creationdesignpattern.abstractmethod.guisystem;
 
-public class GuiSystemApp {
+public class AbstractionMethodApp {
     private Button button;
     private CheckBox checkBox;
 
-    public GuiSystemApp(GUIFactory guiFactory) {
+    public AbstractionMethodApp(GUIFactory guiFactory) {
         button = guiFactory.createButton();
         checkBox = guiFactory.createCheckBox();
     }
@@ -20,7 +20,7 @@ public class GuiSystemApp {
         System.out.println("===== Abstract Method =====\n");
 
         GUIFactory factory = new MacFactory();
-        GuiSystemApp macApp = new GuiSystemApp(factory);
+        AbstractionMethodApp macApp = new AbstractionMethodApp(factory);
         macApp.render();
 
     }
