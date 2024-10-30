@@ -137,7 +137,7 @@ To run the examples:
 3. Open the project in your favorite IDE (e.g., IntelliJ IDEA, Eclipse).
 4. Build and run the examples you're interested in.
 
-## Contributing
+## ContributingREAD
 
 Contributions are welcome! If you'd like to enhance the examples or add new patterns:
 
@@ -149,8 +149,8 @@ Contributions are welcome! If you'd like to enhance the examples or add new patt
 
 ## Additional Resources
 
-- Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides
-- Refactoring Guru - Design Patterns: [here] `https://refactoring.guru/design-patterns`
-- Oracle Java Documentation: [here] `https://docs.oracle.com/javase/tutorial/`
+- **Design Patterns:** \*Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides
+- **Refactoring Guru - Design Patterns:** [here] (https://refactoring.guru/design-patterns)
+- **Oracle Java Documentation:** [here] (https://docs.oracle.com/javase/tutorial/)
 
 `Note`: This repository currently focuses on `Creational Design Patterns`. Future updates will include `Structural` and `Behavioral Design Patterns`. Stay tuned!
