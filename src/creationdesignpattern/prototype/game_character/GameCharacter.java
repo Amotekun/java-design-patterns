@@ -36,12 +36,11 @@ public class GameCharacter implements Cloneable {
     }
 
     @Override
-    public Object clone() {
+    public GameCharacter clone() {
         try {
-            return super.clone();
+            return (GameCharacter) super.clone();
         } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-            return null;
+            throw new RuntimeException("Failed to clone GameCharacter: " + name, e);
         }
     }
 

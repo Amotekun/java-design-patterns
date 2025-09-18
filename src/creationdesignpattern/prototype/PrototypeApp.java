@@ -24,21 +24,27 @@ public class PrototypeApp {
 
         Employee originalEmployee = new Employee("John Doe", "IT", 5000);
 
-        Employee clonedEmployee1 = (Employee) originalEmployee.clone();
-        Employee clonedEmployee2 = (Employee) originalEmployee.clone();
+        Employee clonedEmployee1 = originalEmployee.clone();
+        Employee clonedEmployee2 = originalEmployee.clone();
 
-        System.out.println(clonedEmployee1);
-        System.out.println(clonedEmployee2);
+        System.out.println("Original: " + originalEmployee);
+        System.out.println("Clone 1: " + clonedEmployee1);
+        System.out.println("Clone 2: " + clonedEmployee2);
+        System.out.println("Are clones equal? " + clonedEmployee1.equals(clonedEmployee2));
+        System.out.println("Are they the same object? " + (clonedEmployee1 == clonedEmployee2));
 
         System.out.println("===== Game Character Prototype pattern =====");
 
         GameCharacter originalGameCharacter = new GameCharacter("Granular", "Arcade", 100, 80, 90);
 
-        GameCharacter clonedGameCharacter1 = (GameCharacter) originalGameCharacter.clone();
-        GameCharacter clonedGameCharacter2 = (GameCharacter) originalGameCharacter.clone();
+        GameCharacter clonedGameCharacter1 = originalGameCharacter.clone();
+        GameCharacter clonedGameCharacter2 = originalGameCharacter.clone();
 
-        System.out.println(clonedGameCharacter1);
-        System.out.println(clonedGameCharacter2);
+        System.out.println("Original: " + originalGameCharacter);
+        System.out.println("Clone 1: " + clonedGameCharacter1);
+        System.out.println("Clone 2: " + clonedGameCharacter2);
+        System.out.println("Are clones equal? " + clonedGameCharacter1.equals(clonedGameCharacter2));
+        System.out.println("Are they the same object? " + (clonedGameCharacter1 == clonedGameCharacter2));
     }
 
 }

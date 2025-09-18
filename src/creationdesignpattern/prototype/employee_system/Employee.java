@@ -24,12 +24,11 @@ public class Employee implements Cloneable {
     }
 
     @Override
-    public Object clone() {
+    public Employee clone() {
         try {
-            return super.clone();
+            return (Employee) super.clone();
         } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-            return null;
+            throw new RuntimeException("Failed to clone Employee: " + name, e);
         }
     }
 

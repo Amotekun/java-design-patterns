@@ -128,16 +128,52 @@ Location in Codebase: See the `SingletonPattern` directory for the full implemen
 
 ## Getting Started
 
-To run the examples:
+### Prerequisites
+- Java 11 or higher
+- Maven 3.6 or higher
+
+### Installation and Running
 
 1. Clone the repository:
-   `git clone https://github.com/Amotekun/java-design-patterns`
+   ```bash
+   git clone https://github.com/Amotekun/java-design-patterns
+   ```
 
 2. Navigate to the project directory:
-3. Open the project in your favorite IDE (e.g., IntelliJ IDEA, Eclipse).
-4. Build and run the examples you're interested in.
+   ```bash
+   cd java-design-patterns
+   ```
 
-## ContributingREAD
+3. Build the project:
+   ```bash
+   mvn clean compile
+   ```
+
+4. Run all design pattern examples:
+   ```bash
+   mvn exec:java
+   ```
+
+5. Run specific pattern examples:
+   ```bash
+   # Run only creational patterns
+   mvn exec:java -Dexec.mainClass="creationdesignpattern.singleton.SingletonApp"
+   
+   # Run only factory method patterns
+   mvn exec:java -Dexec.mainClass="creationdesignpattern.factormethod.inheritance.with_interface.InheritanceWithInterfaceApp"
+   ```
+
+6. Run tests:
+   ```bash
+   mvn test
+   ```
+
+### IDE Setup
+- **IntelliJ IDEA**: Import as Maven project
+- **Eclipse**: Import as existing Maven project
+- **VS Code**: Install Java Extension Pack and open the project folder
+
+## Contributing
 
 Contributions are welcome! If you'd like to enhance the examples or add new patterns:
 

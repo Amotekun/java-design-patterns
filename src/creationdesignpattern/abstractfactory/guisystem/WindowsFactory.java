@@ -1,4 +1,4 @@
-package creationdesignpattern.abstractmethod.guisystem;
+package creationdesignpattern.abstractfactory.guisystem;
 
 public class WindowsFactory implements GUIFactory {
     @Override

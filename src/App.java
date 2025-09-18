@@ -16,7 +16,7 @@ public class App {
         creationdesignpattern.factormethod.dependency_injection.DependencyInjectionApp.run();
         printSeparator();
 
-        creationdesignpattern.abstractmethod.guisystem.AbstractionMethodApp.run();
+        creationdesignpattern.abstractfactory.guisystem.AbstractFactoryApp.run();
         printSeparator();
 
         creationdesignpattern.builder.BuilderApp.run();
